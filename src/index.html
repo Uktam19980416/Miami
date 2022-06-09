@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-  </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The MET</title>
+  <link rel="shortcut icon" href="./images/photos/THEMET.png" type="image/png">
+  <link rel="stylesheet" href="./styles/main.scss">
+  <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <div class="met__bar" id="menu">
+    <div class="met__nav">
+      <div class="met__logo">
+        <a href="#">
+          <img src="./images/photos/THEMET.png" alt="logo">
+        </a>
+      </div>
+      <a href="#" class="met__cancel">
+        <img src="./images/cross.svg" alt="cross">
+      </a>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">
+            Home
+          </a>
+        </li>
+
+        <li class="nav-list__item">
+          <a href="#about" class="nav-list__link">
+            About Us
+          </a>
+        </li>
+
+        <li class="nav-list__item">
+          <a href="#gallery" class="nav-list__link">
+            Gallery
+          </a>
+        </li>
+
+        <li class="nav-list__item">
+          <a href="#testimonials" class="nav-list__link">
+            Testimonials
+          </a>
+        </li>
+
+        <li class="nav-list__item">
+          <a href="#contact" class="nav-list__link">
+            Contact Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="met__info">
+      <div class="met__avenue">
+        <a href="https://www.google.ru/maps/place/Fort+Tryon/@40.8618281,-73.9351897,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f40178ae3dc5:0x7b001555e427f9e0!8m2!3d40.8618071!4d-73.932897"
+          class="avenue fifth__avenue" target="_blank">The Met Fifth Avenue</a>
+        <a href="tel:+1 212-535-7710" class="avenue fifth__avenue">+1 212-535-7710</a>
+      </div>
+      <div class="met__cloister">
+        <a href="https://www.google.ru/maps/place/Fort+Tryon/@40.8618281,-73.9351897,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f40178ae3dc5:0x7b001555e427f9e0!8m2!3d40.8618071!4d-73.932897"
+          class="title cloister__title" target="_blank">
+          The Met Cloisters
+        </a>
+        <a href="tel:+1 212-923-3700" class="mobile cloister__mobile">+1 212-923-3700</a>
+      </div>
+      <div class="call__order">
+        <a href="tel:+1 212-535-7710">call to order</a>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="top header__top">
+        <a href="#" class="top__logo-link">
+          <img src="./images/photos/THEMET.png" class="logo top__logo" alt="The Met">
+        </a>
+      </div>
+      <div class="info top__info">
+        <img src="./images/phone.svg" class="info__phone" alt="phone">
+      </div>
+      <div class="cursor">
+        <a href="#menu" class="bar info__bar"></a>
+      </div>
+    </div>
+    <div class="header__main-title">
+      <div class="header__title">
+        <h1 class="title main__title">WELCOME TO THE MET</h1>
+      </div>
+    </div>
+  </header>
+  <!-- </div> -->
+</body>
+
 </html>
